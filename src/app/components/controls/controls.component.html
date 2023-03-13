@@ -1,0 +1,59 @@
+<label class="label">Primera Fecha</label>
+<div class="horizontal">
+    <div class="field lateral-space">
+        <label class="label">Año</label>
+        <div class="control">
+            <div class="select">
+                <select #year1 (change)="onSelectedYear1($event)">
+                    <option *ngFor="let year of years" [value]="year.value" [selected] = "selected.year1 == year.value">{{year.text}}</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="field">
+        <label class="label">Mes</label>
+        <div class="control">
+            <div class="select">
+                <select class= "month-dropdown" #month1 (change)="onSelectedMonth1($event)">
+                    <option *ngFor="let month of findYear1Months(years)" [value]="month.value" [selected] = "selected.month1 == month.value">{{month.text}}</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<label class="label">Segunda Fecha</label>
+<div class="horizontal">
+    <div class="field lateral-space">
+        <label class="label">Año</label>
+        <div class="control">
+            <div class="select">
+                <select #year2 (change)="onSelectedYear2($event)">
+                    <option *ngFor="let year of years" [value]="year.value" [selected] = "selected.year2 == year.value">{{year.text}}</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="field">
+        <label class="label">Mes</label>
+        <div class="control">
+            <div class="select">
+                <select class= "month-dropdown" #month2 (change)="onSelectedMonth2($event)">
+                    <option *ngFor="let month of findYear2Months(years)" [value]="month.value" [selected] = "selected.month2 == month.value">{{month.text}}</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <br>
+<div class="field">
+    <label class="label">Provincia</label>
+    <div class="control">
+        <div class="select">
+            <select>
+                <option>Select dropdown</option>
+                <option>With options</option>
+            </select>
+        </div>
+    </div>
+</div> -->

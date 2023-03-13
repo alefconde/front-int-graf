@@ -1,0 +1,6 @@
+<div class="horizontal">
+    <div *ngFor="let year of years">
+
+        <app-timeline-year [year]="year" [selected] = "selected" (monthChange)="changeMonth($event)"></app-timeline-year>
+    </div>
+</div>

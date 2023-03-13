@@ -1,0 +1,11 @@
+<div class="year-width" [ngStyle]="{'width': widthExp + 'px'}">
+    <div class="horizontal">
+        <div *ngFor="let month of year.months">
+            <app-timeline-button [month]="month" [year]="year.year" [selected]="selected"
+                (monthChange)="changeMonth($event)"></app-timeline-button>
+        </div>
+    </div>
+    <div class="arrow-pointer-year">
+        <p class="center title has-text-white">{{year.year}}</p>
+    </div>
+</div>

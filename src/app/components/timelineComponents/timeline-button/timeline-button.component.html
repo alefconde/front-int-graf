@@ -1,0 +1,12 @@
+<div>
+  <div class="month-space horizontal">
+    <div *ngFor="let event of month.events">
+      <app-timeline-event [event]="event"></app-timeline-event>
+    </div>
+  </div>
+  <div
+    [ngClass]="((this.selected.year1 == this.year && this.selected.month1 == this.month.month) || (this.selected.year2 == this.year && this.selected.month2 == this.month.month))? 'arrow-pointer-selected' : 'arrow-pointer'"
+    (click)="changeMonth()">
+    <p class="month-center subtilte">{{name}}</p>
+  </div>
+</div>

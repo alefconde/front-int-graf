@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TooltipComponent } from './tooltip.component';
+import { TimelineEventComponent } from './timeline-event.component';
 
-describe('TooltipComponent', () => {
-  let component: TooltipComponent;
-  let fixture: ComponentFixture<TooltipComponent>;
+describe('TimelineEventComponent', () => {
+  let component: TimelineEventComponent;
+  let fixture: ComponentFixture<TimelineEventComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TooltipComponent ]
+      declarations: [ TimelineEventComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TooltipComponent);
+    fixture = TestBed.createComponent(TimelineEventComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

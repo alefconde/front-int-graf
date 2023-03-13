@@ -3,14 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MapComponent } from './map/map.component';
-import { TimelineComponent } from './timelineComponents/timeline/timeline.component';
-import { ControlsComponent } from './controls/controls.component';
-import { GraphComponent } from './graph/graph.component';
-import { TimelineButtonComponent } from './timelineComponents/timeline-button/timeline-button.component';
-import { TimelineYearComponent } from './timelineComponents/timeline-year/timeline-year.component';
+import { MapComponent } from './components/map/map.component';
+import { TimelineComponent } from './components/timelineComponents/timeline/timeline.component';
+import { ControlsComponent } from './components/controls/controls.component';
+import { GraphComponent } from './components/graph/graph.component';
+import { TimelineButtonComponent } from './components/timelineComponents/timeline-button/timeline-button.component';
+import { TimelineYearComponent } from './components/timelineComponents/timeline-year/timeline-year.component';
 import { TooltipModule } from 'ng2-tooltip-directive';
-import { TooltipComponent } from './timelineComponents/tooltip/tooltip.component';
+import { TimelineEventComponent } from './components/timelineComponents/timeline-event/timeline-event.component';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +22,7 @@ import { TooltipComponent } from './timelineComponents/tooltip/tooltip.component
     GraphComponent,
     TimelineButtonComponent,
     TimelineYearComponent,
-    TooltipComponent
+    TimelineEventComponent
   ],
   imports: [
     BrowserModule,

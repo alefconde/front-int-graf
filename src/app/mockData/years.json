@@ -1,0 +1,214 @@
+[
+    {
+        "year": 2013,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": []
+            },
+            {
+                "month": 3,
+                "events": []
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": []
+            },
+            {
+                "month": 6,
+                "events": []
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": [
+                    {
+                        "type": "d",
+                        "title": "Escándalo Bárcenas",
+                        "text": "El diario El País publica los denominados 'papeles de Bárcenas', que evidencian una presunta contabilidad B en el Partido Popular y la implicación del extesorero del partido, Luis Bárcenas, en la trama Gürtel."
+                    }
+                ]
+            },
+            {
+                "month": 9,
+                "events": []
+            },
+            {
+                "month": 10,
+                "events": []
+            },
+            {
+                "month": 11,
+                "events": [
+                    {
+                        "type": "a",
+                        "title": "Huelga general",
+                        "text": "Los principales sindicatos convocan una huelga general en protesta contra la reforma laboral del gobierno de Mariano Rajoy."
+                    }
+                ]
+            },
+            {
+                "month": 12,
+                "events": []
+            }
+        ]
+    },
+    {
+        "year": 2014,
+        "months": [
+            {
+                "month": 1,
+                "events": [
+                    {
+                        "type": "a",
+                        "title": "Rajoy anuncia reforma fiscal",
+                        "text": "El presidente del Gobierno, Mariano Rajoy, anuncia la reforma fiscal, que contempla la reducción de IRPF y la bajada del IVA para determinados sectores."
+                    }
+                ]
+            },
+            {
+                "month": 2,
+                "events": []
+            },
+            {
+                "month": 3,
+                "events": []
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": [
+                    {
+                        "type": "b",
+                        "title": "Elecciones al Parlamento Europeo",
+                        "text": "España celebra elecciones al Parlamento Europeo. El Partido Popular gana las elecciones con el 26,1% de los votos, seguido del PSOE con el 23,0% y Podemos con el 7,9%."
+                    }
+                ]
+            },
+            {
+                "month": 6,
+                "events": []
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": []
+            },
+            {
+                "month": 9,
+                "events": [
+                    {
+                        "type": "c",
+                        "title": "Manifestación por la independencia de Cataluña",
+                        "text": "Cientos de miles de personas se manifiestan en Barcelona a favor de la independencia de Cataluña."
+                    }
+                ]
+            },
+            {
+                "month": 10,
+                "events": []
+            },
+            {
+                "month": 11,
+                "events": []
+            },
+            {
+                "month": 12,
+                "events": []
+            }
+        ]
+    },
+    {
+        "year": 2015,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": []
+            },
+            {
+                "month": 3,
+                "events": []
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": [
+                    {
+                        "type": "b",
+                        "title": "Elecciones municipales y autonómicas",
+                        "text": "Se celebran elecciones municipales y autonómicas en toda España. El Partido Popular sufre importantes pérdidas en los gobiernos locales y autonómicos, mientras que Podemos y Ciudadanos logran entrar con fuerza en el panorama político."
+                    }
+                ]
+            },
+            {
+                "month": 6,
+                "events": [
+                    {
+                        "type": "a",
+                        "title": "Operación Púnica",
+                        "text": "La Policía Nacional desarticula la red de corrupción denominada Operación Púnica, que implicaba a varios cargos políticos y empresarios en el desvío de fondos públicos en la Comunidad de Madrid y otras regiones."
+                    },
+                    {
+                        "type": "d",
+                        "title": "Operación Púnica",
+                        "text": "La Policía Nacional desarticula la red de corrupción denominada Operación Púnica, que implicaba a varios cargos políticos y empresarios en el desvío de fondos públicos en la Comunidad de Madrid y otras regiones."
+                    }
+                ]
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": []
+            },
+            {
+                "month": 9,
+                "events": []
+            },
+            {
+                "month": 10,
+                "events": [
+                    {
+                        "type": "b",
+                        "title": "Elecciones generales",
+                        "text": "Se celebran elecciones generales en España. El Partido Popular gana las elecciones, aunque pierde la mayoría absoluta, mientras que Podemos y Ciudadanos se consolidan como fuerzas políticas importantes."
+                    }
+                ]
+            },
+            {
+                "month": 11,
+                "events": []
+            },
+            {
+                "month": 12,
+                "events": []
+            }
+        ]
+    }
+]

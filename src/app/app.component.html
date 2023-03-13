@@ -4,7 +4,7 @@
       <div class="box">
         <h1 class="title has-text-centered is-full">Evolución del Paro en Castilla y León</h1>
         <p></p>
-        <h2 class="subtitle has-text-centered">aaaa</h2>
+        <h2 class="subtitle has-text-centered">Version en Desarrollo</h2>
       </div>
     </div>
   </div>
@@ -24,13 +24,13 @@
           <app-graph></app-graph>
         </article>
         <article class="tile is-child box">
-          <app-controls></app-controls>
+          <app-controls [selected] = "selected" (monthChangeControls)="changeMonthControls($event)"></app-controls>
         </article>
       </div>
     </div>
     <div class="tile is-parent">
       <article class="tile is-child box scrollable">
-        <app-timeline></app-timeline>
+        <app-timeline [selected] = "selected" (monthChange)="changeMonth($event)"></app-timeline>
       </article>
     </div>
   </div>
