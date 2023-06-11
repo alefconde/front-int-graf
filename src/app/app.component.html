@@ -14,9 +14,9 @@
 <div class="tile is-ancestor">
   <div class="tile is-vertical is-12">
     <div class="tile">
-      <div class="tile is-primary is-8">
-        <article class="tile is-child box">
-          <app-map></app-map>
+      <div class="tile is-primary is-8" (resized)="onResized($event)">
+        <article #mapContainer class="tile is-child box">
+          <app-map [widthMap] = "widthMap" [heightMap] = "heightMap"></app-map>
         </article>
       </div>
       <div class="tile is-vertical is-parent">

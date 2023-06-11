@@ -18,7 +18,7 @@ export class TimelineYearComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.widthExp = 100 * this.year.months.length - 25;
+    this.widthExp = 65 * this.year.months.length - 15;
     console.log(this.selected)
     
   }
