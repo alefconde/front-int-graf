@@ -10,6 +10,7 @@ export class TimelineYearComponent implements OnInit {
 
   @Input() year: timelineYearModel;
   @Input() selected: any;
+  @Input() province: string;
 
   @Output() monthChange = new EventEmitter<{year: number, month: number}>();
 
@@ -19,7 +20,6 @@ export class TimelineYearComponent implements OnInit {
   ngOnInit(): void {
 
     this.widthExp = 65 * this.year.months.length - 15;
-    console.log(this.selected)
     
   }
 

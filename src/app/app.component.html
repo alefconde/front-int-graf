@@ -1,36 +1,35 @@
 <div class="container">
-  <div class="columns is-desktop mt-3">
+  <div class="columns is-desktop mt-3 mb-3">
     <div class="column is-full">
       <div class="box">
-        <h1 class="title has-text-centered is-full">Evolución del Paro en Castilla y León</h1>
-        <p></p>
-        <h2 class="subtitle has-text-centered">Version en Desarrollo</h2>
+        <h1 class="title has-text-centered is-full">Paro en Castilla y León</h1>
+        <h2 class="subtitle has-text-centered">Evolución y Contexto</h2>
       </div>
     </div>
   </div>
 </div>
-<br>
-<br>
-<div class="tile is-ancestor">
+<div class="tile is-ancestor mr-1 ml-1">
   <div class="tile is-vertical is-12">
     <div class="tile">
-      <div class="tile is-primary is-8" (resized)="onResized($event)">
-        <article #mapContainer class="tile is-child box">
-          <app-map [widthMap] = "widthMap" [heightMap] = "heightMap"></app-map>
+      <div (resized)="onResized($event)" class="tile is-primary is-6">
+        <article #mapContainer class="tile is-child box" maxHeight="500">
+          <app-map [widthMap] = "widthMap" [heightMap] = "heightMap" [year1] = "selected.year1" [month1] = "selected.month1" 
+          [year2] = "selected.year2" [month2] = "selected.month2" [province] = "province" (provinceChange) = "changeProvince($event)"></app-map>
         </article>
       </div>
       <div class="tile is-vertical is-parent">
         <article class="tile is-child box">
-          <app-graph></app-graph>
+          <app-graph [year1] = "selected.year1" [month1] = "selected.month1" [year2] = "selected.year2" 
+          [month2] = "selected.month2" [province] = "province"></app-graph>
         </article>
         <article class="tile is-child box">
-          <app-controls [selected] = "selected" (monthChangeControls)="changeMonthControls($event)"></app-controls>
+          <app-controls [selected] = "selected" [province] = "province" (monthChangeControls)="changeMonthControls($event)" (provinceChangeControls)="changeProvinceControls($event)"></app-controls>
         </article>
       </div>
     </div>
     <div class="tile is-parent">
       <article class="tile is-child box scrollable">
-        <app-timeline [selected] = "selected" (monthChange)="changeMonth($event)"></app-timeline>
+        <app-timeline [selected] = "selected" [province] = "province" (monthChange)="changeMonth($event)"></app-timeline>
       </article>
     </div>
   </div>

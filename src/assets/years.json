@@ -1,0 +1,1587 @@
+[
+    {
+        "year": 2002,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": []
+            },
+            {
+                "month": 3,
+                "events": []
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": []
+            },
+            {
+                "month": 6,
+                "events": []
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": []
+            },
+            {
+                "month": 9,
+                "events": []
+            },
+            {
+                "month": 10,
+                "events": []
+            },
+            {
+                "month": 11,
+                "events": []
+            },
+            {
+                "month": 12,
+                "events": []
+            }
+        ]
+    },
+    {
+        "year": 2003,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": []
+            },
+            {
+                "month": 3,
+                "events": []
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": [
+                    {
+                        "type": "b",
+                        "title": "Elecciones Castilla y León Mayo 2003",
+                        "text": "El Partido Popular (PP) ganó las elecciones en Castilla y León, obteniendo la mayoría de los escaños.",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Ávila Mayo 2003",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "05",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Burgos Mayo 2003",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "09",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones León Mayo 2003",
+                        "text": "El Partido Socialista Obrero Español (PSOE) ganó obteniendo la mayoría de los escaños.",
+                        "code": "24",
+                        "img": "../../../../assets/PSOE.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Palencia Mayo 2003",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "34",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Salamanca Mayo 2003",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "37",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Segovia Mayo 2003",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "40",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Soria Mayo 2003",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "42",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Valladolid Mayo 2003",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "47",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Zamora Mayo 2003",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "49",
+                        "img": "../../../../assets/PP.png"
+                    }
+                ]
+            },
+            {
+                "month": 6,
+                "events": []
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": []
+            },
+            {
+                "month": 9,
+                "events": []
+            },
+            {
+                "month": 10,
+                "events": []
+            },
+            {
+                "month": 11,
+                "events": []
+            },
+            {
+                "month": 12,
+                "events": []
+            }
+        ]
+    },
+    {
+        "year": 2004,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": []
+            },
+            {
+                "month": 3,
+                "events": [
+                    {
+                        "type": "a",
+                        "title": "Elecciones Generales Marzo 2004",
+                        "text": "El Partido Socialista Obrero Español (PSOE) obtuvo la victoria, liderado por José Luis Rodríguez Zapatero.",
+                        "img": "../../../../assets/PSOE.png"
+                    }
+                ]
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": []
+            },
+            {
+                "month": 6,
+                "events": []
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": []
+            },
+            {
+                "month": 9,
+                "events": []
+            },
+            {
+                "month": 10,
+                "events": []
+            },
+            {
+                "month": 11,
+                "events": []
+            },
+            {
+                "month": 12,
+                "events": []
+            }
+        ]
+    },
+    {
+        "year": 2005,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": []
+            },
+            {
+                "month": 3,
+                "events": []
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": []
+            },
+            {
+                "month": 6,
+                "events": []
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": []
+            },
+            {
+                "month": 9,
+                "events": []
+            },
+            {
+                "month": 10,
+                "events": []
+            },
+            {
+                "month": 11,
+                "events": []
+            },
+            {
+                "month": 12,
+                "events": []
+            }
+        ]
+    },
+    {
+        "year": 2006,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": []
+            },
+            {
+                "month": 3,
+                "events": []
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": []
+            },
+            {
+                "month": 6,
+                "events": []
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": []
+            },
+            {
+                "month": 9,
+                "events": []
+            },
+            {
+                "month": 10,
+                "events": []
+            },
+            {
+                "month": 11,
+                "events": []
+            },
+            {
+                "month": 12,
+                "events": []
+            }
+        ]
+    },
+    {
+        "year": 2007,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": []
+            },
+            {
+                "month": 3,
+                "events": []
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": [
+                    {
+                        "type": "b",
+                        "title": "Elecciones Castilla y León Mayo 2007",
+                        "text": "El Partido Popular (PP) nuevamente ganó las elecciones y mantuvo la mayoría en Castilla y León.",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Ávila Mayo 2007",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "05",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Burgos Mayo 2007",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "09",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones León Mayo 2007",
+                        "text": "El Partido Socialista Obrero Español (PSOE) ganó obteniendo la mayoría de los escaños.",
+                        "code": "24",
+                        "img": "../../../../assets/PSOE.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Palencia Mayo 2007",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "34",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Salamanca Mayo 2007",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "37",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Segovia Mayo 2007",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "40",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Soria Mayo 2007",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "42",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Valladolid Mayo 2007",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "47",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Zamora Mayo 2007",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "49",
+                        "img": "../../../../assets/PP.png"
+                    }
+                ]
+            },
+            {
+                "month": 6,
+                "events": []
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": []
+            },
+            {
+                "month": 9,
+                "events": []
+            },
+            {
+                "month": 10,
+                "events": []
+            },
+            {
+                "month": 11,
+                "events": []
+            },
+            {
+                "month": 12,
+                "events": []
+            }
+        ]
+    },
+    {
+        "year": 2008,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": []
+            },
+            {
+                "month": 3,
+                "events": [
+                    {
+                        "type": "a",
+                        "title": "Elecciones Generales Marzo 2008",
+                        "text": "El PSOE, nuevamente liderado por José Luis Rodríguez Zapatero, ganó las elecciones.",
+                        "img": "../../../../assets/PSOE.png"
+                    }
+                ]
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": []
+            },
+            {
+                "month": 6,
+                "events": []
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": []
+            },
+            {
+                "month": 9,
+                "events": [
+                    {
+                        "type": "e",
+                        "title": "Crisis Financiera de 2008",
+                        "text": "Se declara la crisis financiera de 2008 tras la caída de Lehman Brothers.",
+                        "img": "../../../../assets/Crisis.png"
+                    }
+                ]
+            },
+            {
+                "month": 10,
+                "events": []
+            },
+            {
+                "month": 11,
+                "events": []
+            },
+            {
+                "month": 12,
+                "events": []
+            }
+        ]
+    },
+    {
+        "year": 2009,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": []
+            },
+            {
+                "month": 3,
+                "events": []
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": []
+            },
+            {
+                "month": 6,
+                "events": []
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": []
+            },
+            {
+                "month": 9,
+                "events": []
+            },
+            {
+                "month": 10,
+                "events": []
+            },
+            {
+                "month": 11,
+                "events": []
+            },
+            {
+                "month": 12,
+                "events": []
+            }
+        ]
+    },
+    {
+        "year": 2010,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": []
+            },
+            {
+                "month": 3,
+                "events": [
+                    {
+                        "type": "d",
+                        "title": "Reforma Laboral de 2010",
+                        "text": "El gobierno de José Luis Rodríguez Zapatero aprueba una amplia reforma laboral con el objetivo de flexibilizar el mercado laboral y fomentar la contratación. La reforma introduce cambios en la regulación de los contratos, el despido y la negociación colectiva.",
+                        "img": "../../../../assets/Reforma.png"
+                    }
+                ]
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": []
+            },
+            {
+                "month": 6,
+                "events": []
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": []
+            },
+            {
+                "month": 9,
+                "events": []
+            },
+            {
+                "month": 10,
+                "events": []
+            },
+            {
+                "month": 11,
+                "events": []
+            },
+            {
+                "month": 12,
+                "events": []
+            }
+        ]
+    },
+    {
+        "year": 2011,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": []
+            },
+            {
+                "month": 3,
+                "events": []
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": [
+                    {
+                        "type": "b",
+                        "title": "Elecciones Castilla y León Mayo 2011",
+                        "text": "El Partido Popular (PP) obtuvo la victoria en las elecciones de Castilla y León y mantuvo la mayoría de los escaños.",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Ávila Mayo 2011",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "05",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Burgos Mayo 2011",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "09",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones León Mayo 2011",
+                        "text": "El Partido Socialista Obrero Español (PSOE) ganó obteniendo la mayoría de los escaños.",
+                        "code": "24",
+                        "img": "../../../../assets/PSOE.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Palencia Mayo 2011",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "34",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Salamanca Mayo 2011",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "37",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Segovia Mayo 2011",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "40",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Soria Mayo 2011",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "42",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Valladolid Mayo 2011",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "47",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Zamora Mayo 2011",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "49",
+                        "img": "../../../../assets/PP.png"
+                    }
+                ]
+            },
+            {
+                "month": 6,
+                "events": []
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": []
+            },
+            {
+                "month": 9,
+                "events": []
+            },
+            {
+                "month": 10,
+                "events": []
+            },
+            {
+                "month": 11,
+                "events": [
+                    {
+                        "type": "a",
+                        "title": "Elecciones Generales Noviembre 2011",
+                        "text": "El Partido Popular (PP), liderado por Mariano Rajoy, obtuvo la victoria.",
+                        "img": "../../../../assets/PP.png"
+                    }
+                ]
+            },
+            {
+                "month": 12,
+                "events": []
+            }
+        ]
+    },
+    {
+        "year": 2012,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": [
+                    {
+                        "type": "d",
+                        "title": "Reforma Laboral de 2012",
+                        "text": "Bajo el gobierno de Mariano Rajoy, se aprueba una nueva reforma laboral que busca fomentar la competitividad y la creación de empleo. La reforma introduce cambios en la contratación, el despido, la negociación colectiva y las prestaciones por desempleo.",
+                        "img": "../../../../assets/Reforma.png"
+                    }
+                ]
+            },
+            {
+                "month": 3,
+                "events": []
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": []
+            },
+            {
+                "month": 6,
+                "events": []
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": []
+            },
+            {
+                "month": 9,
+                "events": []
+            },
+            {
+                "month": 10,
+                "events": []
+            },
+            {
+                "month": 11,
+                "events": []
+            },
+            {
+                "month": 12,
+                "events": []
+            }
+        ]
+    },
+    {
+        "year": 2013,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": []
+            },
+            {
+                "month": 3,
+                "events": []
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": []
+            },
+            {
+                "month": 6,
+                "events": []
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": []
+            },
+            {
+                "month": 9,
+                "events": []
+            },
+            {
+                "month": 10,
+                "events": []
+            },
+            {
+                "month": 11,
+                "events": []
+            },
+            {
+                "month": 12,
+                "events": []
+            }
+        ]
+    },
+    {
+        "year": 2014,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": []
+            },
+            {
+                "month": 3,
+                "events": []
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": []
+            },
+            {
+                "month": 6,
+                "events": []
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": []
+            },
+            {
+                "month": 9,
+                "events": []
+            },
+            {
+                "month": 10,
+                "events": []
+            },
+            {
+                "month": 11,
+                "events": []
+            },
+            {
+                "month": 12,
+                "events": []
+            }
+        ]
+    },
+    {
+        "year": 2015,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": []
+            },
+            {
+                "month": 3,
+                "events": []
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": [
+                    {
+                        "type": "b",
+                        "title": "Elecciones Castilla y León Mayo 2015",
+                        "text": "El Partido Popular (PP) volvió a ganar las elecciones en Castilla y León, asegurando la mayoría de los escaños.",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Ávila Mayo 2015",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "05",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Burgos Mayo 2015",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "09",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones León Mayo 2015",
+                        "text": "El Partido Socialista Obrero Español (PSOE) ganó obteniendo la mayoría de los escaños.",
+                        "code": "24",
+                        "img": "../../../../assets/PSOE.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Palencia Mayo 2015",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "34",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Salamanca Mayo 2015",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "37",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Segovia Mayo 2015",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "40",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Soria Mayo 2015",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "42",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Valladolid Mayo 2015",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "47",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Zamora Mayo 2015",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "49",
+                        "img": "../../../../assets/PP.png"
+                    }
+                ]
+            },
+            {
+                "month": 6,
+                "events": []
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": []
+            },
+            {
+                "month": 9,
+                "events": []
+            },
+            {
+                "month": 10,
+                "events": []
+            },
+            {
+                "month": 11,
+                "events": []
+            },
+            {
+                "month": 12,
+                "events": [
+                    {
+                        "type": "a",
+                        "title": "Elecciones Generales Diciembre 2015",
+                        "text": "Ninguna fuerza política obtuvo mayoría absoluta. El PP fue el partido más votado, pero el PSOE, Podemos y Ciudadanos también obtuvieron un número significativo de escaños."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "year": 2016,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": []
+            },
+            {
+                "month": 3,
+                "events": []
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": []
+            },
+            {
+                "month": 6,
+                "events": [
+                    {
+                        "type": "a",
+                        "title": "Elecciones Generales Junio 2016",
+                        "text": "El PP volvió a ser el partido más votado, pero sin obtener mayoría absoluta. Mariano Rajoy fue investido presidente del Gobierno después de formar un acuerdo de coalición con Ciudadanos y obtener el apoyo de otros partidos.",
+                        "img": "../../../../assets/PP.png"
+                    }
+                ]
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": []
+            },
+            {
+                "month": 9,
+                "events": []
+            },
+            {
+                "month": 10,
+                "events": []
+            },
+            {
+                "month": 11,
+                "events": []
+            },
+            {
+                "month": 12,
+                "events": []
+            }
+        ]
+    },
+    {
+        "year": 2017,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": []
+            },
+            {
+                "month": 3,
+                "events": []
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": []
+            },
+            {
+                "month": 6,
+                "events": []
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": []
+            },
+            {
+                "month": 9,
+                "events": []
+            },
+            {
+                "month": 10,
+                "events": []
+            },
+            {
+                "month": 11,
+                "events": []
+            },
+            {
+                "month": 12,
+                "events": []
+            }
+        ]
+    },
+    {
+        "year": 2018,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": []
+            },
+            {
+                "month": 3,
+                "events": []
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": [
+                    {
+                        "type": "a",
+                        "title": "Moción de Censura Mayo 2018",
+                        "text": "Mariano Rajoy fue destituido como presidente del Gobierno español a través de una moción de censura presentada por el PSOE, liderado por Pedro Sánchez. Sánchez fue investido presidente del Gobierno tras la aprobación de la moción de censura.",
+                        "img": "../../../../assets/PSOE.png"
+                    }
+                ]
+            },
+            {
+                "month": 6,
+                "events": []
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": []
+            },
+            {
+                "month": 9,
+                "events": []
+            },
+            {
+                "month": 10,
+                "events": []
+            },
+            {
+                "month": 11,
+                "events": []
+            },
+            {
+                "month": 12,
+                "events": []
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": []
+            },
+            {
+                "month": 3,
+                "events": [
+                    {
+                        "type": "d",
+                        "title": "Reforma Laboral de 2019",
+                        "text": "El gobierno de Pedro Sánchez aprueba una serie de modificaciones a la reforma laboral de 2012. Las modificaciones buscan fortalecer los derechos laborales, promover la igualdad y mejorar la protección de los trabajadores. Se introducen cambios en la contratación, la negociación colectiva y el despido.",
+                        "img": "../../../../assets/Reforma.png"
+                    }
+                ]
+            },
+            {
+                "month": 4,
+                "events": [
+                    {
+                        "type": "a",
+                        "title": "Elecciones Generales Abril 2019",
+                        "text": "El PSOE ganó las elecciones, pero sin obtener mayoría absoluta. Pedro Sánchez fue investido presidente del Gobierno después de formar un acuerdo de coalición con Unidas Podemos.",
+                        "img": "../../../../assets/PSOE.png"
+                    }
+                ]
+            },
+            {
+                "month": 5,
+                "events": [
+                    {
+                        "type": "b",
+                        "title": "Elecciones Castilla y León Mayo 2019",
+                        "text": "Aunque el Partido Socialista Obrero Español (PSOE) obtuvo la mayoría de los votos, el Partido Popular (PP) formó un pacto con Ciudadanos y otros partidos para asegurar la mayoría de los escaños y gobernar en Castilla y León.",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Ávila Mayo 2019",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "05",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Burgos Mayo 2019",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "09",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones León Mayo 2019",
+                        "text": "El Partido Socialista Obrero Español (PSOE) ganó obteniendo la mayoría de los escaños.",
+                        "code": "24",
+                        "img": "../../../../assets/PSOE.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Palencia Mayo 2019",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "34",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Salamanca Mayo 2019",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "37",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Segovia Mayo 2019",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "40",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Soria Mayo 2019",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "42",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Valladolid Mayo 2019",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "47",
+                        "img": "../../../../assets/PP.png"
+                    },
+                    {
+                        "type": "c",
+                        "title": "Elecciones Zamora Mayo 2019",
+                        "text": "El Partido Popular (PP) ganó obteniendo la mayoría de los escaños.",
+                        "code": "49",
+                        "img": "../../../../assets/PP.png"
+                    }
+                ]
+            },
+            {
+                "month": 6,
+                "events": []
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": []
+            },
+            {
+                "month": 9,
+                "events": []
+            },
+            {
+                "month": 10,
+                "events": []
+            },
+            {
+                "month": 11,
+                "events": [
+                    {
+                        "type": "a",
+                        "title": "Elecciones Generales Noviembre 2019",
+                        "text": "El PSOE obtuvo la victoria nuevamente, pero sin alcanzar la mayoría absoluta. Pedro Sánchez fue investido presidente del Gobierno tras un acuerdo de coalición con Unidas Podemos.",
+                        "img": "../../../../assets/PSOE.png"
+                    }
+                ]
+            },
+            {
+                "month": 12,
+                "events": []
+            }
+        ]
+    },
+    {
+        "year": 2020,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": []
+            },
+            {
+                "month": 3,
+                "events": [
+                    {
+                        "type": "e",
+                        "title": "Estado de Alarma por COVID-19",
+                        "text": "Se declara el estado de alarma declarado debido a la pandemia del COVID-19.",
+                        "img": "../../../../assets/Covid.png"
+                    }
+                ]
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": []
+            },
+            {
+                "month": 6,
+                "events": []
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": []
+            },
+            {
+                "month": 9,
+                "events": []
+            },
+            {
+                "month": 10,
+                "events": []
+            },
+            {
+                "month": 11,
+                "events": []
+            },
+            {
+                "month": 12,
+                "events": []
+            }
+        ]
+    },
+    {
+        "year": 2021,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": []
+            },
+            {
+                "month": 3,
+                "events": []
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": []
+            },
+            {
+                "month": 6,
+                "events": []
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": []
+            },
+            {
+                "month": 9,
+                "events": []
+            },
+            {
+                "month": 10,
+                "events": []
+            },
+            {
+                "month": 11,
+                "events": []
+            },
+            {
+                "month": 12,
+                "events": []
+            }
+        ]
+    },
+    {
+        "year": 2022,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": [
+                    {
+                        "type": "c",
+                        "title": "Elecciones Adelantadas Castilla y León 2022",
+                        "text": "El Partido Popular (PP) ganó las elecciones en la Comunidad de Castilla y León en 2022, obteniendo la mayoría de los escaños.",
+                        "img": "../../../../assets/PP.png"
+                    }
+                ]
+            },
+            {
+                "month": 3,
+                "events": []
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": []
+            },
+            {
+                "month": 6,
+                "events": []
+            },
+            {
+                "month": 7,
+                "events": []
+            },
+            {
+                "month": 8,
+                "events": []
+            },
+            {
+                "month": 9,
+                "events": []
+            },
+            {
+                "month": 10,
+                "events": []
+            },
+            {
+                "month": 11,
+                "events": []
+            },
+            {
+                "month": 12,
+                "events": []
+            }
+        ]
+    },
+    {
+        "year": 2023,
+        "months": [
+            {
+                "month": 1,
+                "events": []
+            },
+            {
+                "month": 2,
+                "events": []
+            },
+            {
+                "month": 3,
+                "events": []
+            },
+            {
+                "month": 4,
+                "events": []
+            },
+            {
+                "month": 5,
+                "events": []
+            }
+        ]
+    }
+]

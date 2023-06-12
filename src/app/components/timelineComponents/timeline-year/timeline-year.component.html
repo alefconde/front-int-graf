@@ -1,7 +1,7 @@
 <div class="year-width" [ngStyle]="{'width': widthExp + 'px'}">
     <div class="horizontal">
         <div *ngFor="let month of year.months">
-            <app-timeline-button [month]="month" [year]="year.year" [selected]="selected"
+            <app-timeline-button [month]="month" [year]="year.year" [selected]="selected" [province]="province"
                 (monthChange)="changeMonth($event)"></app-timeline-button>
         </div>
     </div>

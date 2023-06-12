@@ -12,6 +12,7 @@ export class TimelineButtonComponent implements OnInit {
   @Input() month: timelineMonthModel;
   @Input() year: number;
   @Input() selected: any;
+  @Input() province: string;
 
   @Output() monthChange = new EventEmitter<{ year: number, month: number }>();
 

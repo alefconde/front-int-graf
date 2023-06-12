@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 $light: #f8f8f8;
-
+$red-main: #ff0000;
+$blue-main: #0000ff;
 $purple-main: #b388ff;
 $purple-light: #e7b9ff;
 $purple-dark: #805acb;
@@ -51,7 +52,73 @@ html {
   }
 }
 
-.arrow-pointer-selected {
+.arrow-pointer-red {
+  width: 50px;
+  height: 30px;
+  background: $red-main;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  color:white;
+  margin-right: 15px;
+  cursor: pointer;
+
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0; bottom: 0; width: 0; height: 0;
+    border-left: 15px solid #ffffff;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    right: -15px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 15px solid $red-main;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+  }
+}
+
+.arrow-pointer-blue {
+  width: 50px;
+  height: 30px;
+  background: $blue-main;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  color:white;
+  margin-right: 15px;
+  cursor: pointer;
+
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0; bottom: 0; width: 0; height: 0;
+    border-left: 15px solid #ffffff;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    right: -15px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 15px solid $blue-main;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+  }
+}
+
+.arrow-pointer-middle {
   width: 50px;
   height: 30px;
   background: $purple-main;
@@ -160,12 +227,12 @@ html {
 }
 
 .event-point {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 50% 50% 50% 0;
   background: #00cae9;
   transform: rotate(-45deg);
-  margin-right: 5px;
+  margin-right: 3px;
   cursor: pointer;
 }
 
@@ -181,12 +248,55 @@ html {
   background: #0000ff;
 }
 
+.event-yellow{
+  background: #ffff00;
+}
+
+.square-red{
+  height: 10px;
+  width: 10px;
+  margin-right: 3px;
+  background-color: #ff0000;
+}
+
+.square-green{
+  height: 10px;
+  width: 10px;
+  margin-right: 3px;
+  background-color: #00ff00;
+}
+
+.square-blue{
+  height: 10px;
+  width: 10px;
+  margin-right: 3px;
+  background-color: #0000ff;
+}
+
+.square-yellow{
+  height: 10px;
+  width: 10px;
+  margin-right: 3px;
+  background-color: #ffff00;
+}
+
+.square-other{
+  height: 10px;
+  width: 10px;
+  margin-right: 3px;
+  background-color: #00cae9;
+}
+
 .lateral-space{
   margin-right: 20px;
 }
 
 .month-dropdown{
   width: 150px;
+}
+
+.legend-small{
+  font-size: 12px;
 }
 
 @import "../node_modules/bulma/bulma.sass";

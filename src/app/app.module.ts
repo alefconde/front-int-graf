@@ -11,6 +11,7 @@ import { TimelineButtonComponent } from './components/timelineComponents/timelin
 import { TimelineYearComponent } from './components/timelineComponents/timeline-year/timeline-year.component';
 import { TooltipModule } from 'ng2-tooltip-directive';
 import { TimelineEventComponent } from './components/timelineComponents/timeline-event/timeline-event.component';
+import { AngularResizeEventModule } from 'angular-resize-event';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { TimelineEventComponent } from './components/timelineComponents/timeline
   imports: [
     BrowserModule,
     AppRoutingModule,
-    TooltipModule
+    TooltipModule,
+    AngularResizeEventModule
 
   ],
   providers: [],

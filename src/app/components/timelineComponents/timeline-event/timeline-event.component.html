@@ -1,9 +1,11 @@
 <ng-template class="tooltip" #HtmlContent>
     <h3 class="title">{{event.title}}</h3>
     <p>{{event.text}}</p>
+    <img *ngIf="event.img" src={{event.img}} max-width="150px" max-height="150px">
 </ng-template>
 
 
 <div class="event-point"
-    [ngClass]="{'event-green': event.type == 'a', 'event-red': event.type == 'b', 'event-blue': event.type == 'c'}"
-    [tooltip]="$any(HtmlContent)" trigger='hover' theme='light' contentType="template"></div>
+    [ngClass]="{'event-green': event.type == 'a', 'event-red': event.type == 'b', 'event-blue': event.type == 'c', 'event-yellow': event.type == 'd'}"
+    [tooltip]="$any(HtmlContent)" trigger='hover' theme='light' contentType="template">
+</div>

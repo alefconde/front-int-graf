@@ -1,6 +1,6 @@
-import { Component, OnInit, Input, Output, EventEmitter, SimpleChanges } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter} from '@angular/core';
 import { Tools } from 'src/app/tools/tools';
-import yearsData from '../../mockData/years.json';
+import yearsData from '../../../assets/years.json';
 
 @Component({
   selector: 'app-controls',
@@ -16,7 +16,23 @@ export class ControlsComponent implements OnInit {
   months1 = [{ text: "-", value: 0 }];
   months2 = [{ text: "-", value: 0 }];
 
+  @Input() province: string = "07";
+
+  provinces = [
+    {text: "Toda la CCAA", value: "07"},
+    {text: "Ávila", value: "05"},
+    {text: "Burgos", value: "09"},
+    {text: "León", value: "24"},
+    {text: "Palencia", value: "34"},
+    {text: "Salamanca", value: "37"},
+    {text: "Segovia", value: "40"},
+    {text: "Soria", value: "42"},
+    {text: "Valladolid", value: "47"},
+    {text: "Zamora", value: "49"}
+  ]
+
   @Output() monthChangeControls = new EventEmitter<{ year: number, month: number, date2: boolean }>();
+  @Output() provinceChangeControls = new EventEmitter<{province: string}>();
 
   constructor() { }
 
@@ -30,7 +46,6 @@ export class ControlsComponent implements OnInit {
 
       this.years.push({ text: year.year.toString(), value: year.year, months: months });
     });
-    console.log(this.years)
 
   }
 
@@ -89,6 +104,10 @@ export class ControlsComponent implements OnInit {
     return years.filter(year => year.value == this.selected.year2)[0].months;
   }
 
+  onSelectedProvince(event: any): void {
+    this.province = event.target.value;
+    this.provinceChangeControls.emit({ province: this.province});
+  }
 
 
 }

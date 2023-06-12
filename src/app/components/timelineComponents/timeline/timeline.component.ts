@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter} from '@angular/core';
 import { timelineYearModel } from 'src/app/model/timelineYear.model';
-import yearsData from '../../../mockData/years.json';
+import yearsData from '../../../../assets/years.json';
 
 @Component({
   selector: 'app-timeline',
@@ -11,6 +11,7 @@ export class TimelineComponent implements OnInit {
 
   @Output() monthChange = new EventEmitter<{year: number, month: number}>();
   @Input() selected: any;
+  @Input() province: string;
 
   years = yearsData;
   constructor() { }

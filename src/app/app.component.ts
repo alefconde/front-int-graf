@@ -26,17 +26,19 @@ export class AppComponent {
 
   selectImpar = false;
 
+  province: string = "07";
+
   widthMap = 0;
   heightMap = 0;
 
   ngAfterViewInit() {
-    this.widthMap = this.mapContainer.nativeElement.offsetWidth - 50;
-    this.heightMap = this.mapContainer.nativeElement.offsetHeight - 50;
+    this.widthMap = this.mapContainer.nativeElement.offsetWidth - 40;
+    this.heightMap = this.mapContainer.nativeElement.offsetHeight - 40;
   }
 
-  onResized(event): void {
-    this.widthMap = this.mapContainer.nativeElement.offsetWidth - 50;
-    this.heightMap = this.mapContainer.nativeElement.offsetHeight - 50;
+  onResized(event: ResizedEvent): void {
+    this.widthMap = Math.round(event.newRect.width) - 40;
+    this.heightMap = Math.round(event.newRect.height) -40;
   }
 
 
@@ -100,6 +102,14 @@ export class AppComponent {
         this.selected.month2 = 0;
       }
     }
+  }
+
+  changeProvince(event: any): void {
+    this.province = event.province;
+  }
+
+  changeProvinceControls(event: any): void {
+    this.province = event.province;
   }
 
 }

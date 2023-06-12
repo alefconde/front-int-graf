@@ -1,11 +1,14 @@
 <div>
   <div class="month-space horizontal">
     <div *ngFor="let event of month.events">
-      <app-timeline-event [event]="event"></app-timeline-event>
+      <app-timeline-event *ngIf = "event.code == undefined || event.code == province" [event]="event"></app-timeline-event>
     </div>
   </div>
   <div
-    [ngClass]="((this.selected.year1 == this.year && this.selected.month1 == this.month.month) || (this.selected.year2 == this.year && this.selected.month2 == this.month.month))? 'arrow-pointer-selected' : 'arrow-pointer'"
+    [ngClass]="((this.selected.year1 == this.year && this.selected.month1 == this.month.month)? 'arrow-pointer-blue' :
+    ((this.selected.year2 == this.year && this.selected.month2 == this.month.month))? 'arrow-pointer-red' :
+    (((+this.selected.year1 == this.year && +this.selected.month1 < this.month.month) || +this.selected.year1 < this.year) && 
+    ((+this.selected.year2 == this.year && +this.selected.month2 > this.month.month) || +this.selected.year2 > this.year) && (this.selected.month1 != 0 && this.selected.month2 != 0))? 'arrow-pointer-middle' : 'arrow-pointer')"
     (click)="changeMonth()">
     <p class="month-center subtilte">{{name}}</p>
   </div>

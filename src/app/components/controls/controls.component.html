@@ -1,59 +1,108 @@
-<label class="label">Primera Fecha</label>
 <div class="horizontal">
-    <div class="field lateral-space">
-        <label class="label">Año</label>
-        <div class="control">
-            <div class="select">
-                <select #year1 (change)="onSelectedYear1($event)">
-                    <option *ngFor="let year of years" [value]="year.value" [selected] = "selected.year1 == year.value">{{year.text}}</option>
-                </select>
+    <div class="mr-5">
+    <div class="horizontal">
+        <div class="mr-5">
+            <label class="label is-small">Primera Fecha</label>
+            <div class="horizontal">
+                <div class="field lateral-space">
+                    <label class="label is-small">Año</label>
+                    <div class="control">
+                        <div class="select is-small">
+                            <select #year1 (change)="onSelectedYear1($event)">
+                                <option *ngFor="let year of years" [value]="year.value"
+                                    [selected]="selected.year1 == year.value">{{year.text}}</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label is-small">Mes</label>
+                    <div class="control">
+                        <div class="select is-small">
+                            <select class="month-dropdown" #month1 (change)="onSelectedMonth1($event)">
+                                <option *ngFor="let month of findYear1Months(years)" [value]="month.value"
+                                    [selected]="selected.month1 == month.value">{{month.text}}</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <label class="label is-small">Segunda Fecha</label>
+            <div class="horizontal">
+                <div class="field lateral-space">
+                    <label class="label is-small">Año</label>
+                    <div class="control">
+                        <div class="select is-small">
+                            <select #year2 (change)="onSelectedYear2($event)">
+                                <option *ngFor="let year of years" [value]="year.value"
+                                    [selected]="selected.year2 == year.value">{{year.text}}</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label is-small">Mes</label>
+                    <div class="control">
+                        <div class="select is-small">
+                            <select class="month-dropdown" #month2 (change)="onSelectedMonth2($event)">
+                                <option *ngFor="let month of findYear2Months(years)" [value]="month.value"
+                                    [selected]="selected.month2 == month.value">{{month.text}}</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="field">
-        <label class="label">Mes</label>
-        <div class="control">
-            <div class="select">
-                <select class= "month-dropdown" #month1 (change)="onSelectedMonth1($event)">
-                    <option *ngFor="let month of findYear1Months(years)" [value]="month.value" [selected] = "selected.month1 == month.value">{{month.text}}</option>
-                </select>
+    <br>
+    <div class="horizontal">
+        <div class="mr-5">
+            <div class="field">
+                <label class="label is-small">Provincia</label>
+                <div class="control">
+                    <div class="select is-small">
+                        <select class="province-dropdown" #provinceDropdown (change)="onSelectedProvince($event)">
+                            <option *ngFor="let prov of provinces" [value]="prov.value"
+                                [selected]="province == prov.value">
+                                {{prov.text}}</option>
+                        </select>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
 </div>
-<br>
-<label class="label">Segunda Fecha</label>
-<div class="horizontal">
-    <div class="field lateral-space">
-        <label class="label">Año</label>
-        <div class="control">
-            <div class="select">
-                <select #year2 (change)="onSelectedYear2($event)">
-                    <option *ngFor="let year of years" [value]="year.value" [selected] = "selected.year2 == year.value">{{year.text}}</option>
-                </select>
-            </div>
-        </div>
-    </div>
     <div class="field">
-        <label class="label">Mes</label>
-        <div class="control">
-            <div class="select">
-                <select class= "month-dropdown" #month2 (change)="onSelectedMonth2($event)">
-                    <option *ngFor="let month of findYear2Months(years)" [value]="month.value" [selected] = "selected.month2 == month.value">{{month.text}}</option>
-                </select>
+        <label class="label is-small">Leyenda línea del Tiempo</label>
+        <div class="legend-small">
+            <div class="panel-block is-active">
+                <span class="square-green">
+                </span>
+                Elecciones Generales
+            </div>
+            <div class="panel-block is-active">
+                <span class="square-red">
+                </span>
+                Elecciones CCAA
+            </div>
+            <div class="panel-block is-active">
+                <span class="square-blue">
+                </span>
+                Elecciones Provinciales
+            </div>
+            <div class="panel-block is-active">
+                <span class="square-yellow">
+                </span>
+                Reformas Laborales
+            </div>
+            <div class="panel-block is-active">
+                <span class="square-other">
+                </span>
+                Otros Eventos
             </div>
         </div>
     </div>
 </div>
-<!-- <br>
-<div class="field">
-    <label class="label">Provincia</label>
-    <div class="control">
-        <div class="select">
-            <select>
-                <option>Select dropdown</option>
-                <option>With options</option>
-            </select>
-        </div>
-    </div>
-</div> -->
