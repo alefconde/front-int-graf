@@ -1,7 +1,8 @@
 <ng-template class="tooltip" #HtmlContent>
     <h3 class="title">{{event.title}}</h3>
     <p>{{event.text}}</p>
-    <img *ngIf="event.img" src={{event.img}} max-width="150px" max-height="150px">
+    <br>
+    <img *ngIf="event.img" src={{event.img}} style="max-width:100px; max-height: 100px">
 </ng-template>
 
 

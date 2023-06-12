@@ -77,7 +77,7 @@ export class GraphComponent implements OnInit {
                 display: true,
                 text: 'Parados en ' + this.getProvinceName(this.province),
                 font: {
-                  size: 25
+                  size: 50
                 }
               },
               legend: {
